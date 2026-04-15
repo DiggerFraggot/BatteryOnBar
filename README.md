@@ -36,18 +36,18 @@ Displays a live battery bar directly on the taskbar, next to the system clock.
 dotnet publish -c Release
 ```
 
-Output: `bin\Release\net8.0-windows\win-x64\publish\BatteryBar.exe`
+Output: `bin\Release\net8.0-windows\win-x64\publish\.exe`
 
 ---
 
 ## Usage
 
-Run `BatteryBar.exe`. The widget appears on the taskbar to the left of the clock.
+Run `.exe`. The widget appears on the taskbar to the left of the clock.
 
 - **Left click** the widget → power plan menu
 - **Right click tray icon** → show/hide, switch language, quit
 
-To run on startup, add a shortcut to `BatteryBar.exe` in:
+To run on startup, add a shortcut to `.exe` in:
 ```
 %APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 ```
@@ -72,7 +72,7 @@ Edit the `CFG` class at the top of `Program.cs` before building:
 
 ## Why
 
-Lenovo Vantage used to show a small battery gauge on the taskbar. That feature was removed because Windows 11 doesn't support third-party widgets on taskbar. This project brings it back as a standalone app that works on any Windows 11 machine — ThinkPad or otherwise.
+Lenovo Vantage used to show a small battery gauge on the taskbar. That feature was removed because Windows 11 doesn't support third-party widgets on taskbar. This project brings it back as a standalone app that works on any Windows 11 machine - ThinkPad or otherwise.
 
 ---
 
