@@ -21,10 +21,6 @@ Displays a live battery bar directly on the taskbar, next to the system clock.
 
 ---
 
-## Bugs
-
-- can sometimes hide behind taskbar - i need to work on that but for now i use translucentTB
-
 ---
 
 ## Requirements
@@ -76,7 +72,7 @@ Edit the `CFG` class at the top of `Program.cs` before building:
 
 ## Why
 
-Lenovo Vantage used to show a small battery gauge on the taskbar. That feature was quietly removed. This project brings it back as a standalone app that works on any Windows 11 machine — ThinkPad or otherwise.
+Lenovo Vantage used to show a small battery gauge on the taskbar. That feature was removed because Windows 11 doesn't support third-party widgets on taskbar. This project brings it back as a standalone app that works on any Windows 11 machine — ThinkPad or otherwise.
 
 ---
 
