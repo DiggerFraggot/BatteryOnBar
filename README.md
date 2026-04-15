@@ -1,6 +1,6 @@
 # thinkpad-batterybar
 
-A lightweight taskbar battery widget for Windows 11, built as a replacement for the battery gauge that used to be available in **Lenovo Vantage** — removed in newer versions of the app and unavailable on Windows 11.
+A taskbar battery widget for Windows 11, built as a replacement for the battery gauge that used to be available in **Lenovo Vantage** — removed in newer versions of the app and unavailable on Windows 11.
 
 Displays a live battery bar directly on the taskbar, next to the system clock.
 
@@ -22,11 +22,16 @@ Displays a live battery bar directly on the taskbar, next to the system clock.
 
 ---
 
+## Bugs
+
+- can sometimes hide behind taskbar - i need to work on that but for now i use translucentTB
+
+---
+
 ## Requirements
 
 - Windows 11
-- .NET 8 SDK (only to build) — [download](https://dotnet.microsoft.com/download/dotnet/8)
-- No runtime required for the published single-file exe
+- .NET 8 SDK - [download](https://dotnet.microsoft.com/download/dotnet/8)
 
 ---
 
